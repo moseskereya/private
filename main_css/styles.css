@@ -1,0 +1,503 @@
+
+body{
+    margin:0;
+    padding:0;
+  }
+  .wrapper nav{
+   display:flex;
+   padding:0;
+   justify-content:center;
+   margin:10px
+  }
+   nav a{
+     padding: 15px 30px;
+     text-decoration:none;
+     color:#022140;
+     text-align:center;
+     transition:.6s ease;
+     font-size:20px;
+     text-transform: uppercase;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  nav a:hover{
+    color:orange;
+  }
+  nav a.active{
+    color:#fff;
+    background-color:#000;
+  }
+  
+  @media (max-width:800px){
+   .wrapper nav{
+     flex-direction:column; 
+    }
+  }
+  
+  .wrapper span{
+  position:absolute;
+  top:20px;
+  }
+  .wrapper span .fa{
+    font-size:30px;
+    color:#022140;
+  }
+  .wrapper span .fa:hover{
+    color:orange;
+  }
+  .boxes{
+    display:flex;
+    width:100%;
+   justify-content:center;
+    background-color:orange;
+    height:250px;
+  }
+  .content{
+    color:#fff;
+    padding:10px;
+  }
+  .content h1{
+    text-transform:uppercase;
+    font-size:40px;
+    letter-spacing:16px;
+  }
+  .content h4{
+    padding:14px
+  }
+  .content hr{
+    width:200px;
+  }
+  .content .click{
+    text-decoration:none;
+    padding:10px 40px;
+    border:1px solid#fff;
+    color:#fff;
+    margin:10px;
+  }
+  .content .click:hover{
+    background-color:#fff;
+    color:#022140;
+  }
+  .icon{
+    position:absolute;
+    color:#fff;
+  }
+  .icon  ul{
+    list-style-type:none;
+    float:right;
+    margin: 20px;
+  }
+  .icon li{
+    margin: 10px;
+    font-size: 25px;
+  }
+  .icon .fa{
+    font-size:20px;
+    padding:10px;
+    cursor:pointer;
+  }
+  @media (max-width:800px){
+   .boxes{
+     flex-direction:column; 
+    }
+  }
+  .div-container{
+    display:flex;
+    width:100%;
+    justify-content:center;
+  }
+  .div-container .container{
+    width:500px;
+    padding:20px;
+    background-color:rgba(5, 205, 255, 0.7)
+  }
+  .div-container .images img{
+    display:flex;
+    width:600px;
+    flex-direction:column;
+    height:380px;
+  }
+  .div-container .container p{
+    font-size:20px;
+  }
+  .div-container .container h2{
+    padding:20px;
+    color:#022140;
+    font-size:30px;
+  }
+  .div-container .container a{
+    text-decoration:none;
+    padding:10px 40px;
+    background-color:#022140;
+    color:#fff;
+    text-transform:uppercase;
+    transition:.9s ease;
+  }
+  .div-container .container a:hover{
+    padding:10px 50px;
+  }
+  @media (max-width:800px){
+    .div-container{
+      flex-direction:column;
+    }
+  }
+  .div-flex{
+    display:flex;
+    width:100%;
+    justify-content:center;
+  }
+  .flex-item{
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+  }
+  @media (max-width:800px){
+    .div-flex{
+      flex-direction:column;
+    }
+  }
+  .flex-item img{
+    cursor:pointer;
+  }
+  .flex-item img:hover{
+   background-color:#fff;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+  .flex-div{
+    display:flex;
+    width:100%;
+   justify-content:center;
+    flex-wrap:wrap;
+   
+  }
+  .moses{
+    background-color:rgba(179, 166, 125, 0.692);
+  }
+  .flex-div .items{
+    width:500px;
+    height:500px;
+  }
+  .flex-div .items img{
+    width:100%;
+    height:100%;
+  }
+  .portifolio h2{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 30px;
+    padding: 10px;
+    margin: 10px;
+    color: aqua;
+   }
+   .portifolio{
+     background-image:url("../images/architectural-design-architecture-birds-eye-view-1722183.jpg");
+     display:flex;
+     justify-content: center;
+     align-content: center;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+     width: 100%;
+     height: 500px;
+   }
+   .gallery_content h3{
+     display: flex;
+     justify-content: center;
+     align-content:center;
+     font-family:  san-serif;
+     font-size: 30px;
+     padding: 20px;
+     margin: 10px;
+     color: rgba(58, 136, 209, 0.6);
+   }
+   .gallery_content p{
+     font-size: 20px;
+    color:teal;
+     padding: 10px;
+     margin: 20px;
+   }
+   .gallery_content .click{
+     text-decoration: none;
+     color:#000;
+     padding: 10px 40px;
+     margin: 10px;
+     border:1px solid black;
+     transition: .9s ease-in-out;
+   }
+   .gallery_content .click:hover{
+     padding:10px 50px;
+     background-color: aqua;
+     color:black;
+   }
+   .heading h3{
+display: flex;
+justify-content: center;
+padding: 20px;
+margin: 10px;
+font-size: 35px;
+text-shadow: 3px 2px rgb(117, 113, 104);
+text-transform: uppercase;
+}
+.icon_content{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+.icon_content .context{
+  width:400px;
+  margin: 20px auto;
+  text-align: center;
+}
+.icon_content .context .fas{
+  font-size: 30px;
+  padding:20px;
+  margin: 20px;
+  border: 1px solid #fff;
+  background-color:#000;
+  color:orange;
+  border-radius: 100px;
+}
+.div-container{
+  background-color: rgb(136, 167, 160);
+}
+.context h4{
+  text-transform: uppercase;
+  text-align: center;
+}
+.gallery_content hr{
+  width:30%;
+}
+.contact h2{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  align-items: center;
+  padding: 20px;
+  color:#022140;
+}
+.form{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-self: auto;
+}
+.form .input{
+ padding: 20px;
+  margin: 20px;
+}
+.input input{
+  height:50px;
+  width:300px;
+  padding: 10px;
+  border-color: #fff;
+  background-color: rgb(235, 235, 235);
+}
+.input button{
+  width:300px;
+  height:50px;
+  background-color: rgb(245, 182, 8);
+  color:#fff;
+  cursor: pointer;
+}
+@media(max-width:700px){
+  .form{
+    flex-direction: column;
+  }
+}
+.map{
+  width:100%;
+  height:500px;
+  margin: 20px auto;
+}
+.map iframe{
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+}
+.section_2{
+  display: flex;
+  justify-content: center;
+  align-self: auto;
+  padding-left: 20px;
+}
+.icon_fonts{
+  margin: 20px;
+  padding: 20px;
+}
+.icon_fonts .fas{
+  text-align: center;
+  font-size: 25px;
+  color:orange
+}
+@media (max-width:800px){
+.section_2{
+    flex-direction:column;
+  }
+}
+.about{
+background-image: url("../images/art-artist-calligraphy-57690.jpg");
+background-attachment: fixed;
+background-position: center;
+height: 80vh;
+top: 0;
+bottom:0;
+right: 0px;
+left:0px;
+}
+.about h4{
+display: flex;
+font-size: 70px;
+color: rgba(32, 96, 235, 0.911);
+justify-content: center;
+align-items: center;
+position: relative;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+.primary{
+  width:100%;
+  display:flex;
+  justify-content:center;
+  background-color:#fff;
+ box-shadow: 0 4px 8px 0 rgba(216, 131, 131, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.primary .item4{
+  padding:20px;
+  width:300px;
+  text-align:center;
+}
+.primary .mypic{
+  height:500px;
+  width:600px;
+  padding:10px;
+}
+.primary .mypic img{
+  width:100%;
+  height:100%;
+}
+@media (max-width:800px){
+ .primary{
+    flex-direction:column;
+  }
+}
+.primary .item4 a{
+  text-decoration:none;
+  padding: 10px 100px;
+  background-color:red;
+  color:#fff;
+}
+.primary .item4 a:hover{
+  background-color:#fff;
+  color:#022140;
+}
+@media (max-width:800px){
+  .about h4{
+     flex-direction:column;
+   }
+ }
+ .boxes7{
+  display:flex;
+  width:100%;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:20px;
+  background-color: rgb(180, 175, 175);
+}
+.boxes7 .box22{
+  padding:30px;
+  width:500px;
+}
+.box-content1 h4{
+  color:#022140;
+  text-align:center;
+  font-size:25px;
+}
+.box-content1 a{
+  margin:40px auto;
+  text-decoration:none;
+  padding:10px 40px;
+  border:1px solid#000;
+  color:#022140;
+  transition:.9s ease;
+}
+.box-content1 a:hover{
+  padding:10px 50px;
+}
+@media (max-width:800px){
+  .boxes{
+    flex-direction:column;
+  }
+  .box22 img{
+    width: 500px;
+    height: 400px;
+    cursor: pointer;
+  }
+}
+.content1{
+  display:flex;
+  width:100%;
+  flex-wrap:wrap;
+}
+.items img{
+ cursor:pointer; 
+}
+.items{
+  flex:1;
+  padding:10px;
+  margin:10px;
+  border:1px solid#fff;
+}
+.showcase1 h2{
+  display: flex;
+  justify-content:center;
+  padding: 40px;
+  background:orange;
+  color: #fff;
+  width:300px;
+  text-align: center;
+  margin: 20px auto;
+border-bottom-right-radius: 100px;
+border-top-right-radius: 100px;
+
+}
+.paragraph{
+  padding:10px;
+  text-align:center;
+}
+.paragraph p{
+  font-size:16px;
+  color:#022140;
+}
+.paragraph h2{
+  color: #022140;
+  text-transform:uppercase;
+  font-size:14px;
+}
+.paragraph hr{
+  width:50px;
+}
+.clicks{
+  padding:10px 40px;
+  text-decoration:none;
+  margin:5px;
+  border:1px solid #fff;
+  background-color:#408DB4;
+  color:#000;
+}
+.clicks:hover{
+  background-color:#408DB4;
+  color:#fff;
+}
+@media (max-width:800px){
+ figure{
+   flex-direction:column; 
+  }
+}
+@media (max-width:800px){
+ .content{
+   flex-direction:column; 
+  }
+}
